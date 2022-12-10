@@ -18,7 +18,7 @@
 </head>
 <body>
 	<%!
-		String key = "";//Put your working key(AES key)
+		String key = "7625e224dc0f0ec91ad28c1ee67b1eb96d1a5459533c5c950f44aae1e32f2da3";//Put your working key(AES key)
 		public String decrypt(String hexCipherText){
 	        try {
 		        SecretKeySpec skey = new SecretKeySpec(getMD5(key), "AES");
